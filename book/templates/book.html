@@ -1,0 +1,22 @@
+
+{% block content %}
+
+{%  for a in stu %}
+
+<!-- {{a}}<br> -->
+<b>num:</b>{{ a.id }}<br>
+<b>coverpage:</b>{{a.coverpage}}<br>
+<b>authorname:</b>{{a.authorname}}<br>
+<b>price:</b>{{a.price}}<br>
+<b>quantity:</b>{{a.quantity}}<br>
+<b>total_pages:</b>{{a.total_pages}}<br>
+<b>phone_no:</b>{{a.phone_no}}<br>
+<b>email:</b>{{a.email}}<br>
+<b>address:</b>{{a.adress}}<br>
+<hr>
+{% endfor %}
+
+
+{% endblock %}
+
+
